@@ -1,0 +1,125 @@
+body {
+    background-color: rgba(185, 20, 80, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inputcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.inputcontainer h2 {
+    color: rgba(185, 20, 80, 1);
+    font-size: 20px;
+    font-weight: 300;
+    width: 33%;
+}
+
+.containeritem {
+    width: 33%;
+}
+
+.containeritem input {
+    border: 1px solid rgba(185, 20, 80, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.containeritem select {
+    border: 1px solid rgba(185, 20, 80, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.containeritem select:hover {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+    border: 1px solid rgba(185, 20, 80, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: rgba(185, 20, 80, 1);
+    font-size: 15px;
+    font-weight: 600;
+    transition: .2s;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgba(185, 20, 80, 1);
+    color: white;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ticketcontainer {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.ticketdatacontainer {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+
+.ticketdata {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ticketdata h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.ticketdata #nome {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#promozione {
+    margin-top: 50px;
+}
+
+.ticketinfo {
+    margin-top: 50px;
+}
+
+.none {
+    display: none;
+}

@@ -9,15 +9,54 @@
     <script src="Javascript/script.js" defer></script>
 </head>
 <body>
-    <input type="text" name="Nome" id="Name">
-    <input type="number" name="Nome" id="km">
-    <select id="mySelect">
-        <option value="0">Apple</option>
-        <option value="1">Orange</option>
-        <option value="2">Pineapple</option>
-      </select>
-    <button id="invio" type="button">Invia</button>
-    <p id="prezzo"></p>
-    <p id="demo"></p>
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <div class="container">
+        <div class="inputcontainer">
+            <h2>Nome Cognome</h2>
+            <h2>Km da percorrere</h2>
+            <h2>Fascia d'età</h2>
+            <div class="containeritem">
+                <input type="text" name="Nome" id="Name">
+            </div>
+            <div class="containeritem">
+                <input type="number" name="Nome" id="km">
+            </div>
+            <div class="containeritem">
+                <select id="mySelect">
+                    <option value="0">Minorenne</option>
+                    <option value="1">Maggiorenne</option>
+                    <option value="2">Over 65</option>
+                </select>            
+            </div>
+        </div>
+        <button id="invio" type="button">Invia</button>
+        <button id="annulla" type="button">Annulla</button>
+    </div>
+    <h2 id="title" class="none">IL TUO BIGLIETTO</h2>
+    <div id="ticket" class="ticketcontainer none">
+        <h3>DETTAGLIO PASSEGGERI</h3>
+        <div class="ticketdatacontainer">
+            <div class="ticketdata grey">
+                <h4>NOME PASSEGGERO</h4>
+                <p id="nome"></p>
+            </div>
+            <div class="ticketdata">
+                <h4>Offerta</h4>
+                <p id="promozione"></p>
+            </div>
+            <div class="ticketdata">
+                <h4>Carrozza</h4>
+                <p class="ticketinfo">5</p>
+            </div>
+            <div class="ticketdata">
+                <h4>Codice cp</h4>
+                <p class="ticketinfo">92911</p>
+            </div>
+            <div class="ticketdata">
+                <h4>Prezzo Biglietto</h4>
+                <p id="prezzo" class="ticketinfo"></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
